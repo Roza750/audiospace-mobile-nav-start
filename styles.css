@@ -87,6 +87,7 @@ section{ padding: 30px 15px; }
 
 
 /******* Top section styles *******/
+
 #top { padding: 0; }
 
 #top { display: flex; }
@@ -132,6 +133,7 @@ p { line-height: 1.3em; }
 #new-release h2 { color:#303030; }
 
 /************ Logo Styles ***************/
+
 header h1 { 
 	font-size: 20vw;
 	text-align: center;
@@ -247,6 +249,32 @@ footer .space { color:#bdd4de; }
 	
 	#top p, footer p {
 		font-size: 24px;
+	}
+	#mobilenav {
+		display: none;
+	}
+	#mainnav {
+		box-sizing: border-box;
+		position: static;
+		width: 100%;
+		margin-bottom: 20px;
+		border-top: none;
+		border-left:  1px solid #ca6a0c;
+	}
+	#mainnav ul {
+		display: flex;
+	}
+	#mainnav ul li {
+		flex: 1;
+	}
+
+	#mainnav ul li a {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0;
+		text-align: center;
+		border-bottom: none;
+		border-right: 1px solid #ca6a0c;
 	}
 	
 }
